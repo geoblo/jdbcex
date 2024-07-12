@@ -60,4 +60,12 @@ public class TodoDAOTests {
 
         todoDAO.updateOne(todoVO);
     }
+
+    // Quiz: testDeleteOne() 만들어서 테스트 해보기
+    @Test
+    public void testDeleteOne() throws Exception {
+        Long tno = 1L;
+
+        todoDAO.deleteOne(tno);
+    }
 }
