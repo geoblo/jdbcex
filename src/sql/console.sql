@@ -1,4 +1,4 @@
-# select now();
+select now();
 
 # 테이블 생성
 create table tbl_todo (
